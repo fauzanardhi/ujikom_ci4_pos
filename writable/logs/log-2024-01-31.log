@@ -1,0 +1,1025 @@
+CRITICAL - 2024-01-31 02:56:58 --> Class "App\Models\UserModel" not found
+in APPPATH\Controllers\Auth.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 02:57:23 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$user is deprecated in APPPATH\Controllers\Auth.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2024-01-31 02:57:23 --> Invalid file: "v_login_auth.php"
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('v_login_auth.php')
+ 2 SYSTEMPATH\Common.php(1184): CodeIgniter\View\View->render('v_login_auth', [], true)
+ 3 APPPATH\Controllers\Auth.php(18): view('v_login_auth')
+ 4 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Auth->index()
+ 5 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 6 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 02:57:45 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$user is deprecated in APPPATH\Controllers\Auth.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 02:57:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 02:57:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$user is deprecated in APPPATH\Controllers\Auth.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 02:57:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 02:57:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$user is deprecated in APPPATH\Controllers\Auth.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 02:57:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 02:57:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$user is deprecated in APPPATH\Controllers\Auth.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 02:57:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 02:57:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 02:57:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$pelanggan is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 02:57:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$produk is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 02:57:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$transaksi is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 02:58:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 02:58:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$pelanggan is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 02:58:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$produk is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 02:58:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$transaksi is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 02:58:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 02:58:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$pelanggan is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 02:58:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$produk is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 02:58:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$transaksi is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 02:58:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 02:58:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Laporan::$transaksi is deprecated in APPPATH\Controllers\Admin\Laporan.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Laporan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 02:58:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 02:58:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$pelanggan is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 02:58:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$produk is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 02:58:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$transaksi is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 02:58:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 02:58:07 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Laporan::$transaksi is deprecated in APPPATH\Controllers\Admin\Laporan.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Laporan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 02:58:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-31 02:58:07 --> Class "App\Libraries\PdfLibrary" not found
+in APPPATH\Controllers\Admin\Laporan.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Laporan->generatePdf()
+ 2 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Laporan))
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 02:59:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Laporan::$transaksi is deprecated in APPPATH\Controllers\Admin\Laporan.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Laporan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 02:59:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 02:59:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$pelanggan is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 02:59:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$produk is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 02:59:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$transaksi is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 02:59:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 02:59:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Laporan::$transaksi is deprecated in APPPATH\Controllers\Admin\Laporan.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Laporan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 02:59:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 02:59:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$pelanggan is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 02:59:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$produk is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 02:59:04 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$transaksi is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 02:59:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:03:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Laporan::$transaksi is deprecated in APPPATH\Controllers\Admin\Laporan.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Laporan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:03:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:03:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$pelanggan is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 03:03:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$produk is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 03:03:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$transaksi is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:03:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:03:12 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Laporan::$transaksi is deprecated in APPPATH\Controllers\Admin\Laporan.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Laporan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:03:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-01-31 03:03:12 --> Class "TCPDF" not found
+in APPPATH\Libraries\PdfLibrary.php on line 12.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(312): include_once()
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(289): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\xampp\\htdocs\\ujikom_ci4_pos\\app\\Libraries\\PdfLibrary.php')
+ 3 SYSTEMPATH\Autoloader\Autoloader.php(267): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Libraries\\PdfLibrary')
+ 4 APPPATH\Controllers\Admin\Laporan.php(43): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Libraries\\PdfLibrary')
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Laporan->generatePdf()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Laporan))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 03:05:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Laporan::$transaksi is deprecated in APPPATH\Controllers\Admin\Laporan.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Laporan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:05:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:05:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$pelanggan is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 03:05:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$produk is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 03:05:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$transaksi is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:05:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:05:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Laporan::$transaksi is deprecated in APPPATH\Controllers\Admin\Laporan.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Laporan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:05:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:05:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$pelanggan is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 03:05:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$produk is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 03:05:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$transaksi is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:05:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:05:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Laporan::$transaksi is deprecated in APPPATH\Controllers\Admin\Laporan.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Laporan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:05:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:05:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$pelanggan is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 03:05:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$produk is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 03:05:28 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$transaksi is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:05:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:05:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Laporan::$transaksi is deprecated in APPPATH\Controllers\Admin\Laporan.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Laporan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:05:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:05:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Laporan::$transaksi is deprecated in APPPATH\Controllers\Admin\Laporan.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Laporan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:05:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:05:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$pelanggan is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 03:05:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$produk is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 03:05:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$transaksi is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:05:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-01-31 03:05:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:05:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$pelanggan is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 03:05:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$produk is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 03:05:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$transaksi is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:05:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:06:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Laporan::$transaksi is deprecated in APPPATH\Controllers\Admin\Laporan.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Laporan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:06:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:06:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$pelanggan is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 03:06:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$produk is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 03:06:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$transaksi is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:06:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:06:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Laporan::$transaksi is deprecated in APPPATH\Controllers\Admin\Laporan.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Laporan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:06:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:28:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Dashboard::$pelanggan is deprecated in APPPATH\Controllers\Admin\Dashboard.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 03:28:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Dashboard::$produk is deprecated in APPPATH\Controllers\Admin\Dashboard.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 03:28:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Dashboard::$transaksi is deprecated in APPPATH\Controllers\Admin\Dashboard.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:28:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:28:59 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$user is deprecated in APPPATH\Controllers\Auth.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:28:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:29:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$user is deprecated in APPPATH\Controllers\Auth.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:29:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:29:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$user is deprecated in APPPATH\Controllers\Auth.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:29:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:29:18 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$user is deprecated in APPPATH\Controllers\Auth.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 03:30:43 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$user is deprecated in APPPATH\Controllers\Auth.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:30:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:30:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$user is deprecated in APPPATH\Controllers\Auth.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:30:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:30:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Dashboard::$pelanggan is deprecated in APPPATH\Controllers\Admin\Dashboard.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 03:30:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Dashboard::$produk is deprecated in APPPATH\Controllers\Admin\Dashboard.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 03:30:51 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Dashboard::$transaksi is deprecated in APPPATH\Controllers\Admin\Dashboard.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:30:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:30:55 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Pelanggan::$pelanggan is deprecated in APPPATH\Controllers\Admin\Pelanggan.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Pelanggan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:30:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:30:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Dashboard::$pelanggan is deprecated in APPPATH\Controllers\Admin\Dashboard.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 03:30:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Dashboard::$produk is deprecated in APPPATH\Controllers\Admin\Dashboard.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 03:30:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Dashboard::$transaksi is deprecated in APPPATH\Controllers\Admin\Dashboard.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:30:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:30:58 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Produk::$produk is deprecated in APPPATH\Controllers\Admin\Produk.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Produk->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:30:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:31:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Dashboard::$pelanggan is deprecated in APPPATH\Controllers\Admin\Dashboard.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 03:31:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Dashboard::$produk is deprecated in APPPATH\Controllers\Admin\Dashboard.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 03:31:00 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Dashboard::$transaksi is deprecated in APPPATH\Controllers\Admin\Dashboard.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:31:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:31:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$pelanggan is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 03:31:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$produk is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 03:31:01 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$transaksi is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:31:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:31:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Dashboard::$pelanggan is deprecated in APPPATH\Controllers\Admin\Dashboard.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 03:31:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Dashboard::$produk is deprecated in APPPATH\Controllers\Admin\Dashboard.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 03:31:03 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Dashboard::$transaksi is deprecated in APPPATH\Controllers\Admin\Dashboard.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:31:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:31:05 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Laporan::$transaksi is deprecated in APPPATH\Controllers\Admin\Laporan.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Laporan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:31:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:31:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Dashboard::$pelanggan is deprecated in APPPATH\Controllers\Admin\Dashboard.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 03:31:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Dashboard::$produk is deprecated in APPPATH\Controllers\Admin\Dashboard.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 03:31:06 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Dashboard::$transaksi is deprecated in APPPATH\Controllers\Admin\Dashboard.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:31:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:31:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Pelanggan::$pelanggan is deprecated in APPPATH\Controllers\Admin\Pelanggan.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Pelanggan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:31:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:31:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Pelanggan::$pelanggan is deprecated in APPPATH\Controllers\Admin\Pelanggan.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Pelanggan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:31:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:31:16 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Pelanggan::$pelanggan is deprecated in APPPATH\Controllers\Admin\Pelanggan.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Pelanggan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:31:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:31:25 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Pelanggan::$pelanggan is deprecated in APPPATH\Controllers\Admin\Pelanggan.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Pelanggan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:31:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:31:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Pelanggan::$pelanggan is deprecated in APPPATH\Controllers\Admin\Pelanggan.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Pelanggan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:31:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:31:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Pelanggan::$pelanggan is deprecated in APPPATH\Controllers\Admin\Pelanggan.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Pelanggan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:31:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:31:35 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Pelanggan::$pelanggan is deprecated in APPPATH\Controllers\Admin\Pelanggan.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Pelanggan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:31:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:31:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Pelanggan::$pelanggan is deprecated in APPPATH\Controllers\Admin\Pelanggan.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Pelanggan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:31:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:31:38 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Pelanggan::$pelanggan is deprecated in APPPATH\Controllers\Admin\Pelanggan.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Pelanggan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:31:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:31:40 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Produk::$produk is deprecated in APPPATH\Controllers\Admin\Produk.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Produk->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:31:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:31:46 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Produk::$produk is deprecated in APPPATH\Controllers\Admin\Produk.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Produk->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:31:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:31:47 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Produk::$produk is deprecated in APPPATH\Controllers\Admin\Produk.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Produk->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:31:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:31:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Produk::$produk is deprecated in APPPATH\Controllers\Admin\Produk.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Produk->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:31:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:31:54 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Produk::$produk is deprecated in APPPATH\Controllers\Admin\Produk.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Produk->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:31:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:32:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Produk::$produk is deprecated in APPPATH\Controllers\Admin\Produk.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Produk->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:32:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:32:09 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Produk::$produk is deprecated in APPPATH\Controllers\Admin\Produk.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Produk->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:32:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:32:26 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Produk::$produk is deprecated in APPPATH\Controllers\Admin\Produk.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Produk->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:32:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:32:27 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Produk::$produk is deprecated in APPPATH\Controllers\Admin\Produk.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Produk->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:32:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:32:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Produk::$produk is deprecated in APPPATH\Controllers\Admin\Produk.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Produk->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:32:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:32:30 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Produk::$produk is deprecated in APPPATH\Controllers\Admin\Produk.php on line 12.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Produk->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:32:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:32:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$pelanggan is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 03:32:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$produk is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 03:32:32 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$transaksi is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:32:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:32:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$pelanggan is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 03:32:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$produk is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 03:32:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$transaksi is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:32:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:32:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$pelanggan is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 03:32:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$produk is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 03:32:44 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$transaksi is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:32:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:32:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$pelanggan is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 03:32:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$produk is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 03:32:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$transaksi is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:32:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:32:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$pelanggan is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 03:32:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$produk is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 03:32:52 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$transaksi is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:32:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:33:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$pelanggan is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 03:33:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$produk is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 03:33:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$transaksi is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:33:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:33:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$pelanggan is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 03:33:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$produk is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 03:33:02 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$transaksi is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:33:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:33:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$pelanggan is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 03:33:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$produk is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 03:33:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$transaksi is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:33:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:33:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$pelanggan is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 03:33:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$produk is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 03:33:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Transaksi::$transaksi is deprecated in APPPATH\Controllers\Admin\Transaksi.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Transaksi->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:33:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:33:11 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Laporan::$transaksi is deprecated in APPPATH\Controllers\Admin\Laporan.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Laporan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:33:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:33:14 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Laporan::$transaksi is deprecated in APPPATH\Controllers\Admin\Laporan.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Laporan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:33:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:33:22 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Laporan::$transaksi is deprecated in APPPATH\Controllers\Admin\Laporan.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Laporan->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:33:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:33:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Dashboard::$pelanggan is deprecated in APPPATH\Controllers\Admin\Dashboard.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 03:33:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Dashboard::$produk is deprecated in APPPATH\Controllers\Admin\Dashboard.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 03:33:53 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Dashboard::$transaksi is deprecated in APPPATH\Controllers\Admin\Dashboard.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:33:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:33:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$user is deprecated in APPPATH\Controllers\Auth.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:33:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 03:33:57 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$user is deprecated in APPPATH\Controllers\Auth.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 03:33:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 04:04:29 --> [DEPRECATED] Creation of dynamic property App\Controllers\Auth::$user is deprecated in APPPATH\Controllers\Auth.php on line 13.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Auth->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 04:04:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 04:04:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Dashboard::$pelanggan is deprecated in APPPATH\Controllers\Admin\Dashboard.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 04:04:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Dashboard::$produk is deprecated in APPPATH\Controllers\Admin\Dashboard.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 04:04:36 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Dashboard::$transaksi is deprecated in APPPATH\Controllers\Admin\Dashboard.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 04:04:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 04:07:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Dashboard::$pelanggan is deprecated in APPPATH\Controllers\Admin\Dashboard.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 04:07:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Dashboard::$produk is deprecated in APPPATH\Controllers\Admin\Dashboard.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 04:07:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Dashboard::$transaksi is deprecated in APPPATH\Controllers\Admin\Dashboard.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-31 04:07:13 --> Error connecting to the database: mysqli_sql_exception: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ujikom_ci4_pos\system\Database\MySQLi\Connection.php:173
+Stack trace:
+#0 D:\xampp\htdocs\ujikom_ci4_pos\system\Database\MySQLi\Connection.php(173): mysqli->real_connect('localhost', '', Object(SensitiveParameterValue), '', 3306, '', 0)
+#1 D:\xampp\htdocs\ujikom_ci4_pos\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 D:\xampp\htdocs\ujikom_ci4_pos\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#3 D:\xampp\htdocs\ujikom_ci4_pos\system\Database\BaseBuilder.php(1645): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', NULL, false)
+#4 D:\xampp\htdocs\ujikom_ci4_pos\system\Model.php(840): CodeIgniter\Database\BaseBuilder->countAll()
+#5 D:\xampp\htdocs\ujikom_ci4_pos\app\Controllers\Admin\Dashboard.php(33): CodeIgniter\Model->__call('countAll', Array)
+#6 D:\xampp\htdocs\ujikom_ci4_pos\system\CodeIgniter.php(934): App\Controllers\Admin\Dashboard->index()
+#7 D:\xampp\htdocs\ujikom_ci4_pos\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#8 D:\xampp\htdocs\ujikom_ci4_pos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\ujikom_ci4_pos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: Access denied for user ''@'localhost' (using password: NO) in D:\xampp\htdocs\ujikom_ci4_pos\system\Database\MySQLi\Connection.php:218
+Stack trace:
+#0 D:\xampp\htdocs\ujikom_ci4_pos\system\Database\BaseConnection.php(391): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 D:\xampp\htdocs\ujikom_ci4_pos\system\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+#2 D:\xampp\htdocs\ujikom_ci4_pos\system\Database\BaseBuilder.php(1645): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', NULL, false)
+#3 D:\xampp\htdocs\ujikom_ci4_pos\system\Model.php(840): CodeIgniter\Database\BaseBuilder->countAll()
+#4 D:\xampp\htdocs\ujikom_ci4_pos\app\Controllers\Admin\Dashboard.php(33): CodeIgniter\Model->__call('countAll', Array)
+#5 D:\xampp\htdocs\ujikom_ci4_pos\system\CodeIgniter.php(934): App\Controllers\Admin\Dashboard->index()
+#6 D:\xampp\htdocs\ujikom_ci4_pos\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#7 D:\xampp\htdocs\ujikom_ci4_pos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\xampp\htdocs\ujikom_ci4_pos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-01-31 04:07:13 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+in SYSTEMPATH\Database\BaseConnection.php on line 427.
+ 1 SYSTEMPATH\Database\BaseConnection.php(573): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1645): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows` FROM `pelanggan`', null, false)
+ 3 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->countAll()
+ 4 APPPATH\Controllers\Admin\Dashboard.php(33): CodeIgniter\Model->__call('countAll', [])
+ 5 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Dashboard->index()
+ 6 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 7 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 04:07:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Dashboard::$pelanggan is deprecated in APPPATH\Controllers\Admin\Dashboard.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 04:07:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Dashboard::$produk is deprecated in APPPATH\Controllers\Admin\Dashboard.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 04:07:37 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Dashboard::$transaksi is deprecated in APPPATH\Controllers\Admin\Dashboard.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 04:07:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 04:08:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Dashboard::$pelanggan is deprecated in APPPATH\Controllers\Admin\Dashboard.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 04:08:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Dashboard::$produk is deprecated in APPPATH\Controllers\Admin\Dashboard.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 04:08:08 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Dashboard::$transaksi is deprecated in APPPATH\Controllers\Admin\Dashboard.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-31 04:08:08 --> mysqli_sql_exception: Table 'ci4_pos_test.pelanggan' doesn't exist in D:\xampp\htdocs\ujikom_ci4_pos\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\ujikom_ci4_pos\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\xampp\htdocs\ujikom_ci4_pos\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\xampp\htdocs\ujikom_ci4_pos\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\xampp\htdocs\ujikom_ci4_pos\system\Database\BaseBuilder.php(1645): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', NULL, false)
+#4 D:\xampp\htdocs\ujikom_ci4_pos\system\Model.php(840): CodeIgniter\Database\BaseBuilder->countAll()
+#5 D:\xampp\htdocs\ujikom_ci4_pos\app\Controllers\Admin\Dashboard.php(33): CodeIgniter\Model->__call('countAll', Array)
+#6 D:\xampp\htdocs\ujikom_ci4_pos\system\CodeIgniter.php(934): App\Controllers\Admin\Dashboard->index()
+#7 D:\xampp\htdocs\ujikom_ci4_pos\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#8 D:\xampp\htdocs\ujikom_ci4_pos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\ujikom_ci4_pos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-01-31 04:08:08 --> Table 'ci4_pos_test.pelanggan' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*) AS `numrows` FROM `pelanggan`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows` FROM `pelanggan`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows` FROM `pelanggan`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1645): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows` FROM `pelanggan`', null, false)
+ 5 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->countAll()
+ 6 APPPATH\Controllers\Admin\Dashboard.php(33): CodeIgniter\Model->__call('countAll', [])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 04:10:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Dashboard::$pelanggan is deprecated in APPPATH\Controllers\Admin\Dashboard.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 04:10:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Dashboard::$produk is deprecated in APPPATH\Controllers\Admin\Dashboard.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 04:10:13 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Dashboard::$transaksi is deprecated in APPPATH\Controllers\Admin\Dashboard.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2024-01-31 04:10:13 --> mysqli_sql_exception: Table 'ci4_pos_test.pelanggan' doesn't exist in D:\xampp\htdocs\ujikom_ci4_pos\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 D:\xampp\htdocs\ujikom_ci4_pos\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*)...', 0)
+#1 D:\xampp\htdocs\ujikom_ci4_pos\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 D:\xampp\htdocs\ujikom_ci4_pos\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 D:\xampp\htdocs\ujikom_ci4_pos\system\Database\BaseBuilder.php(1645): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', NULL, false)
+#4 D:\xampp\htdocs\ujikom_ci4_pos\system\Model.php(840): CodeIgniter\Database\BaseBuilder->countAll()
+#5 D:\xampp\htdocs\ujikom_ci4_pos\app\Controllers\Admin\Dashboard.php(33): CodeIgniter\Model->__call('countAll', Array)
+#6 D:\xampp\htdocs\ujikom_ci4_pos\system\CodeIgniter.php(934): App\Controllers\Admin\Dashboard->index()
+#7 D:\xampp\htdocs\ujikom_ci4_pos\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+#8 D:\xampp\htdocs\ujikom_ci4_pos\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\xampp\htdocs\ujikom_ci4_pos\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2024-01-31 04:10:13 --> Table 'ci4_pos_test.pelanggan' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 295.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(295): mysqli->query('SELECT COUNT(*) AS `numrows` FROM `pelanggan`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*) AS `numrows` FROM `pelanggan`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*) AS `numrows` FROM `pelanggan`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1645): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*) AS `numrows` FROM `pelanggan`', null, false)
+ 5 SYSTEMPATH\Model.php(840): CodeIgniter\Database\BaseBuilder->countAll()
+ 6 APPPATH\Controllers\Admin\Dashboard.php(33): CodeIgniter\Model->__call('countAll', [])
+ 7 SYSTEMPATH\CodeIgniter.php(934): App\Controllers\Admin\Dashboard->index()
+ 8 SYSTEMPATH\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin\Dashboard))
+ 9 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+10 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 04:11:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Dashboard::$pelanggan is deprecated in APPPATH\Controllers\Admin\Dashboard.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 04:11:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Dashboard::$produk is deprecated in APPPATH\Controllers\Admin\Dashboard.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 04:11:10 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Dashboard::$transaksi is deprecated in APPPATH\Controllers\Admin\Dashboard.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 04:11:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+WARNING - 2024-01-31 04:11:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Dashboard::$pelanggan is deprecated in APPPATH\Controllers\Admin\Dashboard.php on line 14.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 04:11:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Dashboard::$produk is deprecated in APPPATH\Controllers\Admin\Dashboard.php on line 15.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+WARNING - 2024-01-31 04:11:21 --> [DEPRECATED] Creation of dynamic property App\Controllers\Admin\Dashboard::$transaksi is deprecated in APPPATH\Controllers\Admin\Dashboard.php on line 16.
+ 1 SYSTEMPATH\CodeIgniter.php(906): App\Controllers\Admin\Dashboard->__construct()
+ 2 SYSTEMPATH\CodeIgniter.php(490): CodeIgniter\CodeIgniter->createController()
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+INFO - 2024-01-31 04:11:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
